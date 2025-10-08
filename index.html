@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Medicine Reminder Prototype</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cloud-Based Medicine Reminder (Prototype)</h1>
+
+    <div>
+        <h3>Add Medicine</h3>
+        <input type="text" id="medName" placeholder="Medicine Name">
+        <input type="time" id="medTime">
+        <input type="number" id="medQty" placeholder="Quantity">
+        <button onclick="addMedicine()">Add</button>
+    </div>
+
+    <h3>Medicine List</h3>
+    <table border="1" id="medTable">
+        <tr>
+            <th>Name</th>
+            <th>Time</th>
+            <th>Quantity</th>
+        </tr>
+    </table>
+</body>
+<script src="script.js"></script>
+</html>
