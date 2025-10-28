@@ -1,29 +1,22 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Medicine Reminder Prototype</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Cloud-Based Medicine Reminder (Prototype)</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Medicine Reminder System</title>
+    <meta name="description" content="Cloud-based medicine reminder and inventory management system" />
+    <meta name="author" content="Code Crafters Team" />
+    <meta name="theme-color" content="#2563eb" />
 
-    <div>
-        <h3>Add Medicine</h3>
-        <input type="text" id="medName" placeholder="Medicine Name">
-        <input type="time" id="medTime">
-        <input type="number" id="medQty" placeholder="Quantity">
-        <button onclick="addMedicine()">Add</button>
-    </div>
+    <meta property="og:title" content="Smart Medicine Reminder System" />
+    <meta property="og:description" content="Comprehensive medication management with intelligent reminders" />
+    <meta property="og:type" content="website" />
 
-    <h3>Medicine List</h3>
-    <table border="1" id="medTable">
-        <tr>
-            <th>Name</th>
-            <th>Time</th>
-            <th>Quantity</th>
-        </tr>
-    </table>
-</body>
-<script src="script.js"></script>
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
